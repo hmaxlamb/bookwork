@@ -2,6 +2,9 @@ def main():
     string = 'abcde'
     string = reverse_string(string)
     print (string)
+    string = 'edcba'
+    string = reverse_string(string)
+    print(string)
 
 class Stack:
     def __init__(self):
